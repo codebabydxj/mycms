@@ -1,0 +1,46 @@
+/*版权 start*/
+.dxj_banquantopbox{
+	width: 100%;
+	height: 60px;
+	background: #24435B;
+}
+.dxj_banquantop{
+	width: 1140px;
+	height:100%;
+	margin:0 auto;
+}
+.dxj_banquantop li{
+	width:auto;
+	height: 20px;
+	float: left;
+	margin-left: 70px;
+	margin-top:20px;
+}
+.dxj_banquantop li a{
+	margin-left: 10px;
+	color:#9DB0BE;
+}
+.dxj_banquantop li span{
+	color:#69859A;
+}
+.dxj_banquantop li a:hover{
+	color:#fff;
+}
+.dxj_banquanbottombox{
+	width: 100%;
+	height: 48px;
+	background: #1B374D;
+	text-align: center;
+}
+.dxj_banquanbottom{
+	width: 1140px;
+	height:100%;
+	margin:0 auto;
+	text-align: center;
+}
+.dxj_banquanbottom span{
+	color:#4B687F;
+	font-size: 12px;
+	line-height: 40px;
+}
+/*版权 end*/

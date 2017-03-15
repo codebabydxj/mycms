@@ -1,0 +1,46 @@
+/*联系我们 start*/
+.dxj_lxwm{
+	width:960px;
+	height:490px;
+	margin:0 auto;
+}
+.dxj_lxwm h2{
+	margin-top: 20px;
+	font-size: 30px;
+	text-align: center;
+	color: rgb(51, 51, 51);
+	font-family: "微软雅黑";
+	font-weight: normal;
+}
+.dxj_lxwm h4{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	text-align: center;
+	color: #999999;
+	font-family: "微软雅黑";
+	font-weight: normal;
+}
+.dxj_lxwm hr{
+	border:0;
+	height: 1px;
+	background-color: #eeeeee;
+}
+.dxj_gslist{
+	width: 386px;
+	height: 118px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 15px;
+	margin-right: 75px;
+}
+.dxj_gslist h5{
+	font-size: 18px;
+	color: #999999;
+}
+.dxj_gslist p{
+	margin-top: 30px;
+	font-size: 14px;
+	color: #333333;
+}
+/*联系我们 end*/

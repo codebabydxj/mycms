@@ -1,0 +1,261 @@
+/*banner start*/
+.dxj_bannerbox{
+	width: 100%;
+	height: 375px;
+	overflow: hidden;
+}
+.dxj_banner{
+	width:auto;
+	height:100%;
+	background: #D2D2D2;
+	position: relative;
+}
+.dxj_banner li{
+	width: auto;
+	height:375px;
+	position: absolute;
+	top:0;
+	left:100%;
+}
+.dxj_banner .dxj_first{
+	left:0;
+}
+.dxj_leftbtn,.dxj_rightbtn{
+	font-size: 40px;
+	color:#bbb;
+	font-family: "宋体";
+	position: absolute;
+	top:240px;
+	cursor: pointer;
+}
+.dxj_leftbtn{
+	left:100px;
+}
+
+.dxj_rightbtn{
+	right:100px;
+}
+.dxj_circle{
+	width:100px ;
+	height:10px;
+	position: absolute;
+	left: 600px;
+	top:420px;
+}
+.dxj_circle li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50px;
+	border:1px solid #fff;
+	float:left;
+	margin-left: 8px;
+	cursor: pointer;
+}
+.dxj_circle .dxj_first{
+	background: #fff;
+}
+/*banner end*/
+/*车网互联 start*/
+.dxj_cwhlbox{
+	width: 1140px;
+	height: 540px;
+	margin: 0 auto;
+	position: relative;
+}
+.dxj_cwhlbox h2{
+	font-size: 40px;
+	position: absolute;
+	left:480px;
+	top:60px;
+	color:#2A5D84;
+	font-family: "微软雅黑";
+	font-weight: normal;
+}
+.dxj_cwhlbox h5{
+	font-size: 18px;
+	position: absolute;
+	left:422px;
+	top:120px;
+	color:#999999;
+	font-family: "微软雅黑";
+	font-weight: normal;
+}
+.dxj_cwhlbox h6{
+	font-size: 18px;
+	position: absolute;
+	left:160px;
+	top:150px;
+	color:#999999;
+	font-family: "微软雅黑";
+	font-weight: normal;
+}
+.dxj_cwhlbtn{
+	width: 133px;
+	height: 44px;
+	background: #6D9E1C;
+	border-radius: 5px;
+	position: absolute;
+	left:496px;
+	top:200px;
+	text-align: center;
+}
+.dxj_cwhlbtn a{
+	display: block;
+	color:#fff;
+	font-size: 18px;
+	line-height: 44px;
+}
+.dxj_cwhlbtn:hover{
+	opacity: 0.9;
+}
+.dxj_cwhlimg{
+	width: 950px;
+	height: 200px;
+	position: absolute;
+	top: 280px;
+	left:100px;
+}
+.dxj_cwhlimg li{
+	width: 230px;
+	height: 160px;
+	float:left;
+	opacity: 0;
+	margin-right: 10px;
+	margin-top: 40px;
+	text-align: center;
+	position: relative;
+}
+.dxj_cwhlimg .dxj_cwhllast{
+	margin-right: 0;
+}
+.dxj_cwhlimg li span{
+	font-size: 18px;
+	color:#999;
+	position: absolute;
+	left:64px;
+	top:130px;
+}
+/*车网互联 end*/
+/*新闻中心 start*/
+.dxj_newbox{
+	width: 100%;
+	height: 824px;
+	background: #F2F5F8;
+}
+.dxj_new{
+	width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.dxj_new h2{
+	color:#2A5D84;
+	font-size: 40px;
+	font-weight: normal;
+	position: absolute;
+	left:500px;
+	top:100px;
+}
+.dxj_new h4{
+	color:#999;
+	font-size: 18px;
+	font-weight: normal;
+	position: absolute;
+	left:464px;
+	top:170px;
+}
+.dxj_new div{
+	width: 380px;
+	height: 495px;
+	float: left;
+	margin-top: 260px;
+	position: relative;
+}
+.dxj_new div h3{
+	display: block;
+	font-size: 28px;
+	font-weight: normal;
+}
+.dxj_new div h3 a{
+	color:#406B8D;
+}
+.dxj_new div h3 a:hover{
+	text-decoration: underline;
+}
+.dxj_newwords{
+	width: 340px;
+	height: 438px;
+	margin-top: 10px;
+}
+.dxj_newwords li{
+	margin-left: 20px;
+	font-size: 14px;
+	color: #555555;
+}
+.dxj_newwords li a{
+	line-height: 44px;
+}
+.dxj_newwords li a:hover{
+	color:#2A5D84;
+	text-decoration: underline;
+}
+.dxj_newmore{
+	display: block;
+	width: 52px;
+	height: 32px;
+	background: #6D9E1C;
+	color:#fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+	border-radius: 5px;
+	margin-top:10px;
+}
+.dxj_newmore:hover{
+	opacity: 0.9;
+}
+/*新闻中心 end*/
+/*招投标公告 start*/
+.dxj_toubiaobox{
+	width: 1140px;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+.dxj_toubiaobox h2{
+	font-weight: normal;
+	font-size: 40px;
+	color:#2A5D84;
+	position: absolute;
+	top:80px;
+	left:480px;
+}
+.dxj_toubiaobox h4{
+	font-weight: normal;
+	font-size: 18px;
+	color:#999;
+	position: absolute;
+	top:150px;
+	left:450px;
+}
+.dxj_tongzhi{
+	width: 100%;
+	height: 340px;
+	position: absolute;
+	left:0;
+	bottom:50px;
+}
+.dxj_tongzhi h3{
+	font-weight: normal;
+	font-size: 26px;
+	color:#2A5D84;
+	position: absolute;
+	top:50px;
+	left:0;
+}
+.dxj_tongzhi img{
+	position: absolute;
+	right:0;
+	top:0;
+}
+/*招投标公告 end*/

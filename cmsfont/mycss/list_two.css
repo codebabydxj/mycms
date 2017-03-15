@@ -1,0 +1,158 @@
+/*banner start*/
+.dxj_bannerbox{
+	width:100%;
+	height: 170px;
+}
+.dxj_banner{
+	width:auto;
+	height: 100%;
+	margin:0 auto;
+	text-align: center;
+	overflow: hidden;
+	position:relative;
+}
+.dxj_bannerbox img{
+	height: 200px;
+}
+.dxj_banner h1{
+	font-weight: normal;
+	font-size:48px;
+	color:#fff;
+	position: absolute;
+	top:40px;
+	left:240px;
+}
+.dxj_kids{
+	width:auto;
+	height: 72px;
+	position: absolute;
+	right:180px;
+	bottom:-28px;
+}
+.dxj_kids li{
+	width:128px;
+	height:50px;
+	background:#000;
+	opacity: 0.8;
+	color:#fff;
+	float:left;
+	margin-right:2px;
+	border-radius: 5px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+}
+.dxj_kids li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:#fff;
+}
+.dxj_kids li>a:hover{
+	color:#000;
+}
+.dxj_kids li:hover{
+	background: #fff;
+	opacity:1;
+}
+.dxj_kids .dxj_kidslist{
+	background: #fff;
+	opacity:1;
+}
+.dxj_kids .dxj_kidslist a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:#000;
+}
+/*banner end*/
+/*新闻中心 start*/
+.dxj_xwzxbox{
+	width:1170px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+.dxj_xwzx{
+	width:920px;
+	height:auto;
+	margin: 0 auto;
+}
+.dxj_xwzx li{
+	width:920px;
+	height: 160px;
+	border-bottom:1px solid #eee;
+	position: relative;
+}
+.dxj_xwzx li .dxj_title{
+	font-size:20px;
+	color:#2A5D84;
+	font-weight: bold;
+	position: absolute;
+	left:20px;
+	top:40px;
+}
+.dxj_xwzx li a:hover{
+	text-decoration: underline;
+}
+.dxj_xwzx li p{
+	font-size:16px;
+	position: absolute;
+	left:20px;
+	top:80px;
+}
+.dxj_xwzx li div{
+	width:200px;
+	height:26px;
+	position: absolute;
+	left:20px;
+	top:120px;
+}
+.dxj_xwzx li div h6{
+	margin-right: 10px;
+	font-weight: normal;
+	color:#999;
+	line-height: 16px;
+}
+.dxj_xwzx li div .dxj_xwzximg{
+	position: absolute;
+	left:0;
+	top:0;
+}
+.zyh_btnbox{
+	width:auto;
+	height: 34px;
+	margin-top:100px;
+	margin-bottom:100px;
+	margin-left: 600px;
+}
+/*新闻中心 end*/
+/*分页 start*/
+.dxj_btnbox{
+	width:auto;
+	height: 34px;
+	margin-top:100px;
+	margin-bottom:100px;
+	margin-left: 770px;
+}
+.dxj_xwzx .dxj_btnbox a,.dxj_xwzx .dxj_btnbox span{
+	float:left;
+	border:1px solid #999;
+	width:32px;
+	height:32px;
+	line-height: 32px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #eee;
+	margin-left:-1px;
+}
+.dxj_xwzx .dxj_btnbox span:hover,.dxj_xwzx .dxj_btnbox a:hover{
+	background: #ccc;
+	color: white;
+}
+.dxj_xwzx .dxj_btnbox span{
+	background: #ccc;
+	color: white;
+}
+/*分页 end*/
